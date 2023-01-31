@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0) !important;
+}
+
+.root {
+  background-color: black;
+}
+
+.navbar {
+  background-color: #162c1bf8;
+  height: 7.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-heading {
+  color: white;
+  margin: 2rem;
+  margin-right: 0;
+  font-size: 3rem;
+}
+
+.main-heading h2 {
+  font-weight: 350;
+  letter-spacing: 2px;
+  color: pink;
+}
+
+.main-heading span {
+  font-weight: 350;
+  letter-spacing: 2px;
+  color: rgb(166, 255, 0);
+}
+
+.main-content {
+  max-width: 45vw;
+}
+
+.main-content {
+  color: white;
+}
+
+.main-content p {
+  margin: 2rem;
+  margin-bottom: 1rem;
+  /* text-align: justify; */
+  letter-spacing: 1px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin-left: 1.9rem;
+}
+/* .btn-buy {
+  text-decoration: none;
+  display: inline-block;
+} */
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 100px;
+  border: none;
+  font-size: 1.05rem;
+  background-color: #ffffffb2;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: all 0.5s linear;
+
+  -webkit-box-shadow: 10px 15px 26px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 15px 26px 4px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.btn:hover {
+  -webkit-box-shadow: 10px 15px 29px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 15px 29px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: none;
+}
+
+.btn_connect_wallet {
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.05rem;
+  background-color: #ddd900;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.main-images {
+  justify-self: center;
+}
+
+.btn-menu {
+  width: auto;
+  background-color: #ddd900cc;
+}
+
+.items-btn-container {
+  text-align: center;
+  padding: 1rem;
+}
+
+.btn-menu {
+  margin-right: 3rem;
+}
+.nav-btn {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.nav-link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.game {
+  display: flex;
+  max-width: 780px;
+  margin: 0 auto;
+  color: white;
+  border-bottom: 5px dotted #fdff8e;
+  margin-bottom: 1rem;
+}
+.game-img {
+  width: 50%;
+  height: 250px;
+  margin: 1rem;
+}
+.game-img img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+
+.content_aboutus {
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-vision {
+  /* margin-top: 1rem; */
+  margin-bottom: 2rem;
+}
+.main-vision h2 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  padding-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.main-vision p {
+  text-align: justify;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.member-img img {
+  height: 180px;
+  width: 100%;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.team-member {
+  /* padding: 1rem; */
+  height: 15rem;
+  width: 11.5rem;
+  background-color: #ef0947;
+  border-radius: 10px;
+}
+.member-info h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+}
+.team {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.game-text h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+}
+.game-btn {
+  width: 150px;
+}
+.main-images {
+  margin-bottom: 0;
+}
+.main-images img {
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 0;
+}
+
+.games-list {
+  display: flex;
+  align-items: center;
+}
+
+.card_img {
+  height: 250px;
+  width: 400px;
+}
+
+.logo {
+  height: 9.5rem;
+  width: 9.5rem;
+  /* margin-left: 0.5rem; */
+}
+
+.chakra-card__body {
+  background-color: #bebb00cc;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.chakra-card__footer {
+  background-color: #bebb00cc;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.right_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.images {
+  display: flex;
+  margin-top: 2.5rem;
+  margin-right: 2.5rem;
+  /* justify-content: space-between; */
+  width: 80%;
+}
+
+.imgl {
+  margin: 0%;
+  width: 100%;
+  height: 45%;
+}
+
+.imgm {
+  margin: 0;
+  width: 100%;
+  height: 90%;
+}
+
+.imgr {
+  margin: 0%;
+  width: 100%;
+  height: 30%;
+}
+
+.btnhome {
+  background-color: goldenrod;
+}
+
+.aboutus_h2 {
+  color: #00ff95;
+}
+
+.img-main {
+  padding: 0.2rem;
+  border-radius: 1rem;
+}
+
+.home,
+.about,
+.buy {
+  width: 140px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+}
+.connect_wallet {
+  width: 210px;
+}

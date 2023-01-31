@@ -1,0 +1,49 @@
+.SecNftCard {
+  padding: 1rem;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: black;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 1.25rem;
+}
+
+.SecNftCard:hover{
+    border-color: #FFD700;
+}
+
+.SecNftCard img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 10px;
+}
+
+.SecNftCard p {
+  color: rgb(151, 148, 148);
+  margin-left: 0.1rem;
+}
+
+.SecNftCard p.seller{
+    margin-top: 0;
+}
+
+.SecNftCard h2 {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  margin-left: 0.1rem;
+}
+
+.SecNftCard button {
+  width: 5.5rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  background: linear-gradient(to right, #fcb808, #f9075e);
+  color: white;
+  font-weight: 560;
+  font-size: 1.05rem;
+}

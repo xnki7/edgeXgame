@@ -1,0 +1,45 @@
+.NftCard {
+  padding: 1rem;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: black;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 1.25rem;
+}
+
+.NftCard:hover {
+  border-color: #ffd700;
+}
+
+.NftCard img {
+  width: 17.5rem;
+  height: 15rem;
+  border-radius: 10px;
+}
+
+.NftCard p {
+  color: rgb(151, 148, 148);
+  margin-left: 0.1rem;
+}
+
+.NftCard h2 {
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+  margin-left: 0.1rem;
+}
+
+.NftCard button {
+  width: 5.5rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  background: linear-gradient(to right, #fcb808, #f9075e);
+  color: white;
+  font-weight: 560;
+  font-size: 1.05rem;
+}

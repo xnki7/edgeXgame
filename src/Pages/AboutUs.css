@@ -1,0 +1,88 @@
+.AboutUs {
+  background-color: black;
+}
+
+.AboutUs .AboutUsParent {
+  width: 70%;
+  margin: auto;
+  background-color: black;
+}
+
+.AboutUs img {
+  width: 100%;
+  background-color: black;
+}
+
+.AboutUs .AboutUsImg {
+  position: relative;
+}
+
+.AboutUs .first-txt {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+}
+
+.AboutUs .OurVision {
+  margin-top: 5rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.AboutUs .OurVision .textContent {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.AboutUs .OurVision .textContent p {
+  margin-bottom: 0;
+}
+
+.AboutUs .OurVision img {
+  background-color: white;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.AboutUs .team {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.AboutUs .images {
+  margin-top: 3rem;
+}
+
+.AboutUs .images img {
+  margin-top: 2rem;
+}
+
+.AboutUs .video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.AboutUs .team {
+  color: white;
+}
+
+.AboutUs .teamMembers {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.AboutUs .teamMembers .subTeamMembers {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
